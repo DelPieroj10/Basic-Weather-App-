@@ -56,3 +56,5 @@ function WeatherApp() {
 }
 
 export default WeatherApp
+
+// This component works very well.
