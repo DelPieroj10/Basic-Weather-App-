@@ -1,0 +1,7 @@
+I was trying to create a weather app with React that could display the weather anywhere in the world with a real URL. Likewise, I was doing an easy exercise in just a component, but I wanted to scale it isolating the components, hook and Helper, so, in the process; I lost myself looking into a way to order and isolate the components. 
+
+The error that give me the browser is following: "[plugin:vite:import-analysis] Failed to resolve import "../Fetch-Weather-Hook/weatherData" from "src/Fetch-Weather-Hook/WeatherHook.jsx". Does the file exist? "     And   "9  |  var _s = $RefreshSig$();
+10 |  import { weatherFetchData } from "../Fetch-Weather-Hook/weatherData";
+   |                                    ^
+11 |  import { useState, useEffect } from "react";
+12 |  export const weatherHook = ()=>{"
